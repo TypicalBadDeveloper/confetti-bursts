@@ -13,9 +13,12 @@ script.onload = function(){
         },
         "color": {
           "value": [
-            "#00FFFC",
-            "#FC00FF",
-            "#fffc00"
+            "#A800FF",
+            "#0079FF",
+            "#00F11D",
+            "#FFEF00",
+            "#FF7F00",
+            "#FF0900",
           ]
         },
         "shape": {
@@ -118,7 +121,7 @@ script.onload = function(){
       },
       "emitters": {
         "life": {
-          "count": 0,
+          "count": 7,
           "duration": 0.1,
           "delay": 0.4
         },
