@@ -1,4 +1,3 @@
-
 var script = document.createElement("script");
 script.type = "text/javascript";
 script.src = "https://cdnjs.cloudflare.com/ajax/libs/tsparticles/2.6.0/tsparticles.bundle.min.js";
@@ -13,9 +12,7 @@ script.onload = function(){
         },
         "color": {
           "value": [
-            "#00FFFC",
-            "#FC00FF",
-            "#fffc00"
+            "#FFFFFF",
           ]
         },
         "shape": {
@@ -24,16 +21,6 @@ script.onload = function(){
             "square"
           ],
           "options": {}
-        },
-        "opacity": {
-          "value": 1,
-          "animation": {
-            "enable": true,
-            "minimumValue": 0,
-            "speed": 2,
-            "startValue": "max",
-            "destroy": "min"
-          }
         },
         "size": {
           "value": 4,

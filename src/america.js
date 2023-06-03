@@ -1,4 +1,3 @@
-
 var script = document.createElement("script");
 script.type = "text/javascript";
 script.src = "https://cdnjs.cloudflare.com/ajax/libs/tsparticles/2.6.0/tsparticles.bundle.min.js";
@@ -13,11 +12,9 @@ script.onload = function(){
         },
         "color": {
           "value": [
-            "#0000CD",
-            "#1E90FF",
-            "#000080",
-            "#00BFFF",
-            "#87CEFA",
+            "#FF0000",
+            "#FFFFFF",
+            "#0000FF",
           ]
         },
         "shape": {

@@ -1,0 +1,14 @@
+{
+  "name": "confetti-bursts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "builder.js",
+  "scripts": {
+    "minify": "node builder.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "uglify-js": "^3.17.4"
+  }
+}
