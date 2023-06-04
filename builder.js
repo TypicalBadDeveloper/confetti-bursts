@@ -8,7 +8,23 @@ const OUTPUT_DIRECTORY_PATH = './min';
 const minifyFile = async (filePath) => {
     try {
         const data = await fs.readFile(filePath, 'utf8');
-        const result = UglifyJS.minify(data);
+        const result = UglifyJS.minify(data, {
+          mangle: true,
+          toplevel: true,
+          compress: {
+            sequences: true,
+            dead_code: true,
+            conditionals: true,
+            booleans: true,
+            unused: true,
+            if_return: true,
+            join_vars: true,
+            drop_console: true
+          },
+          output: {
+            beautify: false
+          },
+        });
         if (result.error) throw new Error(`Failed to minify file: ${filePath}`);
         
         const fileName = path.basename(filePath);
